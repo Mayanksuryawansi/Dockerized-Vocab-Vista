@@ -55,7 +55,7 @@ docker build -t vocab-vista .
 docker run -d -p 3000:80 --name vocab-app vocab-vista
 ```
 ## 🌐 Live Demo
-[View Live App on Render](https://your-render-link.onrender.com)
+[View Live App on Render](https://vocab-vista-latest.onrender.com)
 
 ## 🔗 Docker Hub
 [View Docker Image on Docker Hub](https://hub.docker.com/r/mayanksuryawanshi1/vocab-vista)
