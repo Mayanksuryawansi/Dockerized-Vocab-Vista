@@ -35,6 +35,15 @@ It allows users to instantly look up word definitions, synonyms, antonyms, and u
 
 ## 🐳 Run with Docker
 
+
+### 🔹 Option 1: Pull from Docker Hub (Recommended)
+You can pull and run the image directly:
+
+```bash
+docker pull mayanksuryawanshi1/vocab-vista:latest
+docker run -d -p 3000:80 --name vocab-app mayanksuryawanshi1/vocab-vista:latest
+
+
 ### 🔹 Build the image
 ```bash
 docker build -t vocab-vista .
