@@ -48,15 +48,9 @@ This project demonstrates **DevOps practices** including **Docker containerizati
 ```bash
 docker pull mayanksuryawanshi1/vocab-vista:latest
 docker run -d -p 3000:80 --name vocab-app mayanksuryawanshi1/vocab-vista:latest
-
-### 🔹 Option 2: Build the docker image locally
-
+```
+### 🔹 Option 2: Build the Docker image locally
+```bash
 docker build -t vocab-vista .
 docker run -d -p 3000:80 --name vocab-app vocab-vista
-
-## 🌐 Live Demo
-[View Live App on Render](https://your-render-link.onrender.com)
-
-## 🔗 Docker Hub
-[View Docker Image on Docker Hub](https://hub.docker.com/r/mayanksuryawanshi1/vocab-vista)
-
+```
